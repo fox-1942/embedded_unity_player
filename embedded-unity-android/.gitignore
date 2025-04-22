@@ -13,6 +13,10 @@ bin/
 gen/
 out/
 
+# But NOT the one inside UnityViewTest assets
+!subProject/UnityViewTest/src/main/assets/bin/
+!subProject/UnityViewTest/src/main/assets/bin/**
+
 # Gradle files
 #.gradle/
 build/
